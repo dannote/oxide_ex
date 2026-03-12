@@ -1,6 +1,14 @@
 defmodule Oxide.Native do
   @moduledoc false
-  use Rustler, otp_app: :oxide_ex, crate: "oxide_ex_nif"
+
+  version = Mix.Project.config()[:version]
+
+  use RustlerPrecompiled,
+    otp_app: :oxide_ex,
+    crate: "oxide_ex_nif",
+    base_url: "https://github.com/dannote/oxide_ex/releases/download/v#{version}",
+    force_build: System.get_env("OXIDE_EX_BUILD") in ["1", "true"],
+    version: version
 
   @spec new_scanner(list()) :: reference()
   def new_scanner(_sources), do: :erlang.nif_error(:nif_not_loaded)
