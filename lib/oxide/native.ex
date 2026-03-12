@@ -8,6 +8,13 @@ defmodule Oxide.Native do
     crate: "oxide_ex_nif",
     base_url: "https://github.com/dannote/oxide_ex/releases/download/v#{version}",
     force_build: System.get_env("OXIDE_EX_BUILD") in ["1", "true"],
+    targets: ~w(
+      aarch64-apple-darwin
+      aarch64-unknown-linux-gnu
+      x86_64-apple-darwin
+      x86_64-unknown-linux-gnu
+      x86_64-unknown-linux-musl
+    ),
     version: version
 
   @spec new_scanner(list()) :: reference()
