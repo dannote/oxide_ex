@@ -28,21 +28,29 @@ defmodule Oxide do
 
   defmodule Source do
     @moduledoc "Source entry for scanner configuration."
+    @type t :: %__MODULE__{base: String.t(), pattern: String.t(), negated: boolean()}
     defstruct base: "", pattern: "", negated: false
   end
 
   defmodule Glob do
     @moduledoc "Glob entry returned by the scanner."
+    @type t :: %__MODULE__{base: String.t(), pattern: String.t()}
     defstruct base: "", pattern: ""
   end
 
   defmodule Changed do
     @moduledoc "Changed content for incremental scanning."
+    @type t :: %__MODULE__{
+            file: String.t() | nil,
+            content: String.t() | nil,
+            extension: String.t()
+          }
     defstruct file: nil, content: nil, extension: ""
   end
 
   defmodule Candidate do
     @moduledoc "Extracted candidate with byte position."
+    @type t :: %__MODULE__{value: String.t(), position: non_neg_integer()}
     defstruct value: "", position: 0
   end
 
