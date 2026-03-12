@@ -6,7 +6,7 @@ defmodule Oxide.MixProject do
 
   def project do
     [
-      app: :oxide,
+      app: :oxide_ex,
       version: @version,
       elixir: "~> 1.17",
       start_permanent: Mix.env() == :prod,

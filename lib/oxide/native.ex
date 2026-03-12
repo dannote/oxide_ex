@@ -1,6 +1,6 @@
 defmodule Oxide.Native do
   @moduledoc false
-  use Rustler, otp_app: :oxide, crate: "oxide_ex_nif"
+  use Rustler, otp_app: :oxide_ex, crate: "oxide_ex_nif"
 
   @spec new_scanner(list()) :: reference()
   def new_scanner(_sources), do: :erlang.nif_error(:nif_not_loaded)
