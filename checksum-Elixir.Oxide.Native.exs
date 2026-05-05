@@ -1,7 +1,7 @@
 %{
-  "liboxide_ex_nif-v0.2.0-nif-2.15-aarch64-apple-darwin.so.tar.gz" => "sha256:bb16a429698458e533eadba5dc142a3fb8b6a9693f9c3b9432f60712e1a2ccda",
-  "liboxide_ex_nif-v0.2.0-nif-2.15-aarch64-unknown-linux-gnu.so.tar.gz" => "sha256:b2b9e559f78c4e9d8f02e281c4d75952b50efb7285c6df171c3bb8235731593a",
-  "liboxide_ex_nif-v0.2.0-nif-2.15-x86_64-apple-darwin.so.tar.gz" => "sha256:96657dc3adad869f182905d236f43c43a02b6ac1bd1a62f8a446932683222ccb",
-  "liboxide_ex_nif-v0.2.0-nif-2.15-x86_64-unknown-linux-gnu.so.tar.gz" => "sha256:059358df232d50a803e91d8f0e030e82eb8610b03d91d88048b5074ae5b06145",
-  "liboxide_ex_nif-v0.2.0-nif-2.15-x86_64-unknown-linux-musl.so.tar.gz" => "sha256:764744794d3e712d1cb008d7320e0ee77400fc45d953070f35dbffdb55bdbd6e",
+  "liboxide_ex_nif-v0.2.1-nif-2.15-aarch64-apple-darwin.so.tar.gz" => "sha256:83c07c346c2f12f67e71acc2ea017b5c58d6537e5d52906dedb8e68352d06334",
+  "liboxide_ex_nif-v0.2.1-nif-2.15-aarch64-unknown-linux-gnu.so.tar.gz" => "sha256:42c65f593a9f4288352d1b699c9e1d9852522d501aa0e31246f65f1e59bf4fd8",
+  "liboxide_ex_nif-v0.2.1-nif-2.15-x86_64-apple-darwin.so.tar.gz" => "sha256:f091de8a5b230b4f8c26550b279bcfd09e38da38d993038177e90997143bc31c",
+  "liboxide_ex_nif-v0.2.1-nif-2.15-x86_64-unknown-linux-gnu.so.tar.gz" => "sha256:5effb9375610b9352e69dd17b968932b01954bae92385edd326d190f58288e4c",
+  "liboxide_ex_nif-v0.2.1-nif-2.15-x86_64-unknown-linux-musl.so.tar.gz" => "sha256:9cd8c1c766f5f3732222e2835b6030d0ee4bdb1b2abbe5ee72f7d6edcacdbdf5",
 }
