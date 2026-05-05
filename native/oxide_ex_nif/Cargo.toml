@@ -12,4 +12,4 @@ crate-type = ["cdylib"]
 
 [dependencies]
 rustler = { version = "0.37", default-features = false, features = ["derive", "nif_version_2_15"] }
-tailwindcss-oxide = { git = "https://github.com/tailwindlabs/tailwindcss.git", tag = "v4.1.8" }
+tailwindcss-oxide = { git = "https://github.com/tailwindlabs/tailwindcss.git", tag = "v4.2.4" }
